@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация DEBUG</title>
+</head>
+<body>
+    <h1>Пользователь</h1>
+    <p>{{ request.user }}</p>
+    <h1>Авторизация</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="register-button">Войти</button>
+    </form>
+    <p><a href="{% url 'logout' %}">Выход</a></p>
+</body>
+</html>
