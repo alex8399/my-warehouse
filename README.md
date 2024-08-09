@@ -1,6 +1,6 @@
 # Backend for MyWarehouse
 
-MyWarehouse is a powerful inventory management tool that allows for accurate recording of item quantities and seamless coordination of collections across multiple warehouses. It streamlines the entire inventory process, ensuring that all aspects of warehousing — from stock tracking to collection — are handled with precision and ease.
+MyWarehouse is a powerful inventory management tool that enables accurate recording of item quantities and seamless coordination of collections across multiple warehouses. It streamlines the entire inventory process, ensuring that all aspects of warehousing — from stock tracking to collection — are managed with precision and ease.
 
 ## Content
 [Features](#features)
